@@ -10,7 +10,7 @@
 
 <h2 align="center">TEST CASES</h2> 
 
-**Test Case 1**
+<h3 style="background-color:DodgerBlue;">Test Case 1</h3>
 --To access mail in local system.<br>
 **Activity**
 --need to Access email Id through script.
