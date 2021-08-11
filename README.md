@@ -26,7 +26,7 @@ Access mail Sucessfully
 
 ----
 
-**Test Case 2**<br>
+**Test Case 2**
 --To Search for email ID interns@fosteringlinux.com .<br>
 **Activity**
 --need to filter  particular email id  on which we are recieving emails from interns.
@@ -40,7 +40,7 @@ Done Sucessfully
 
 ----
 
-**Test Case 3**<br>
+**Test Case 3**
 --search for assignment subject.<br>
 **Activity**
 --need to filter mail with particular assignment subject.
