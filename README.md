@@ -25,9 +25,6 @@ SMTP_SERVER = "imap.gmail.com" <br>
 SMTP_PORT = 993<br>
 def read_email_from_gmail():<br>
 
-**Input**
-python3 /mnt/test1.py
-
 **Output**
 Access mail Sucessfully
 
