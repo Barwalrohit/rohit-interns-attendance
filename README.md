@@ -11,7 +11,7 @@
 <h2 align="center">TEST CASES</h2> 
 
 **Test Case 1**
--- To access mail in local system.<br>
+--To access mail in local system.<br>
 
 **Coding**<br>
 ### Utility to read email from Gmail Using Python
@@ -22,22 +22,56 @@ SMTP_SERVER = "imap.gmail.com" <br>
 SMTP_PORT = 993<br>
 
 **Output**
+
 Access mail Sucessfully
 
 **Test Case 2**<br>
--- to Search particular email ID By Name.<br>
+--To Search for email ID interns@fosteringlinux.com .<br>
+**Activity**
+--need to filter  particular email id  on which we are recieving emails from interns.
 
+**Coding**
+email_to = msg['to']<br>
+print('To: ' + email_to + '\n')<br>
 
+**Output**
+Done Sucessfully
 
-<h2 align="center">TEST CASES</h2> 
+**Test Case 3**<br>
+--search for assignment subject.<br>
+**Activity**
+--need to filter mail with particular assignment subject.
 
-|Test Cases|Attempt|Coding |Analysis|
-|:----:|:-----:|:-----|:-----:|
-|Test Case 1| To Access mail in local system |ORG_EMAIL = "@fosteringlinux.com"FROM_EMAIL = "rohit.x.barwal" + ORG_EMAILFROM_PWD = "password SMTP_SERVER = "imap.gmail.comSMTP_PORT = 993| First of all we need to access our email  through terminal . 
-|Test Case 2| To search for email id interns@fosteringlinux.com| secondly we need to filter  particular email id  on which we are recieving emails from interns 
-|Test Case 3| To search for assignment subject | secondly we need to filter mail with  assignment subject
-|Test Case 4| To filter the mail recirved in 3rd step  from particular intern name | filter mail from intern name
-|Test Case 5| To filter the mail recirved in 4th step  for current date | filter mail from intern name for current date
+**Coding**
+email_subject = msg['subject']
+print('Subject : ' + email_subject + '\n')
+
+**Output**
+Done Sucessfully
+
+**Test Case 4**<br>
+--To search the email by Name.<br>
+**Activity**
+--need to filter mail by particular name.
+
+**Coding**
+email_to = msg['to']
+print('To : ' + email_to + '\n')
+
+**Output**
+Done Sucessfully
+
+**Test Case 4**<br>
+--To search the email by Date.<br>
+**Activity**
+--need to filter mail by Date wise.
+
+**Coding**
+email_Date = msg['Date']
+print('Date : ' + email_Date + '\n')
+
+**Output**
+Done Sucessfully
 
         
     
