@@ -22,8 +22,9 @@ SMTP_SERVER = "imap.gmail.com" <br>
 SMTP_PORT = 993<br>
 
 **Output**
-
 Access mail Sucessfully
+
+----
 
 **Test Case 2**<br>
 --To Search for email ID interns@fosteringlinux.com .<br>
@@ -37,6 +38,8 @@ print('To: ' + email_to + '\n')<br>
 **Output**
 Done Sucessfully
 
+----
+
 **Test Case 3**<br>
 --search for assignment subject.<br>
 **Activity**
@@ -48,6 +51,8 @@ print('Subject : ' + email_subject + '\n')
 
 **Output**
 Done Sucessfully
+
+----
 
 **Test Case 4**<br>
 --To search the email by Name.<br>
@@ -61,6 +66,8 @@ print('To : ' + email_to + '\n')
 **Output**
 Done Sucessfully
 
+-----
+
 **Test Case 4**<br>
 --To search the email by Date.<br>
 **Activity**
@@ -73,5 +80,6 @@ print('Date : ' + email_Date + '\n')
 **Output**
 Done Sucessfully
 
+-----
         
     
