@@ -5,7 +5,7 @@
 
 
 <p align="center"><b>Calculate the attendance of Interns on the basis of diffrent activity.</b>
-- Query ask by the interns 
+        - <b>Query ask by the interns </b>
 - question/answer
 - who rasied the query on mail </p>
 
