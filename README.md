@@ -20,7 +20,7 @@
 ### Utility to read email from Gmail Using Python
 ORG_EMAIL = "@fosteringlinux.com"<br>
 FROM_EMAIL = "rohit.x.barwal" + ORG_EMAIL <br>
-FROM_PWD = "password" <br>
+FROM_PWD = "******" <br>
 SMTP_SERVER = "imap.gmail.com" <br>
 SMTP_PORT = 993<br>
 def read_email_from_gmail():<br>
