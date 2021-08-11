@@ -33,11 +33,7 @@ Access mail Sucessfully
 
 |Test Cases|Attempt|Coding |Analysis|
 |:----:|:-----:|:-----|:-----:|
-|Test Case 1| To Access mail in local system |ORG_EMAIL = "@fosteringlinux.com"
-FROM_EMAIL = "rohit.x.barwal" + ORG_EMAIL <br>
-FROM_PWD = "password" <br>
-SMTP_SERVER = "imap.gmail.com" <br>
-SMTP_PORT = 993<br>| First of all we need to access our email  through terminal . 
+|Test Case 1| To Access mail in local system |ORG_EMAIL = "@fosteringlinux.com"FROM_EMAIL = "rohit.x.barwal" + ORG_EMAILFROM_PWD = "password SMTP_SERVER = "imap.gmail.comSMTP_PORT = 993| First of all we need to access our email  through terminal . 
 |Test Case 2| To search for email id interns@fosteringlinux.com| secondly we need to filter  particular email id  on which we are recieving emails from interns 
 |Test Case 3| To search for assignment subject | secondly we need to filter mail with  assignment subject
 |Test Case 4| To filter the mail recirved in 3rd step  from particular intern name | filter mail from intern name
