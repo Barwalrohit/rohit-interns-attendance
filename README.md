@@ -12,7 +12,15 @@
 
 **Test Case 1**
 -- To access mail in local system.<br>
---(with the help of python i can access my email)<br>
+**Coding**<br>
+# Utility to read email from Gmail Using Python
+#
+# ------------------------------------------------
+ORG_EMAIL = "@fosteringlinux.com" 
+FROM_EMAIL = "sandeep.kumar" + ORG_EMAIL 
+FROM_PWD = "password" 
+SMTP_SERVER = "imap.gmail.com" 
+SMTP_PORT = 993
 **Test Case 2**<br>
 -- to Search particular email ID
 --(
