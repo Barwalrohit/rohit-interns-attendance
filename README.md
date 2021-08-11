@@ -11,9 +11,9 @@
 <h2 align="center">TEST CASES</h2> 
 
 **Test Case 1**
--- To access mail in local system.
---(with the help of python i can access my email)
-**Test Case 2**
+-- To access mail in local system.</b>
+--(with the help of python i can access my email)</b>
+**Test Case 2**</b>
 -- to Search particular email ID
 --(
         
