@@ -60,7 +60,7 @@ Done Sucessfully
 --need to filter mail by particular name.
 
 **Coding**
-email_to = msg['to']
+email_to = msg['to']<br>
 print('To : ' + email_to + '\n')
 
 **Output**
@@ -68,13 +68,13 @@ Done Sucessfully
 
 -----
 
-**Test Case 4**<br>
+**Test Case 5**<br>
 --To search the email by Date.<br>
 **Activity**
 --need to filter mail by Date wise.
 
 **Coding**
-email_Date = msg['Date']
+email_Date = msg['Date']<br>
 print('Date : ' + email_Date + '\n')
 
 **Output**
